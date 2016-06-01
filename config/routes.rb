@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  wash_out :weather
+  # get 'integer_to_string', to: 'weather#integer_to_string'
 end

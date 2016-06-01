@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'turbolinks', '~> 5.x'
 gem 'uglifier', '>= 1.3.0'
 gem 'wash_out'
+gem 'awesome_print'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

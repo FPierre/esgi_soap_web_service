@@ -1,17 +1,19 @@
 source 'https://rubygems.org'
 
 
+gem 'awesome_print'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'puma', '~> 3.0'
+gem 'rack-cors', require: 'rack/cors'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 gem 'sass-rails', '~> 5.0'
+gem 'savon', '~> 2.11.0'
 gem 'sqlite3'
 gem 'turbolinks', '~> 5.x'
 gem 'uglifier', '>= 1.3.0'
 gem 'wash_out'
-gem 'awesome_print'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

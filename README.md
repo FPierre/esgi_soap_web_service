@@ -1,24 +1,19 @@
-# README
+# esgi_soap_web_service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Lancer le serveur
 
-Things you may want to cover:
+```bash
+$ rails s
+```
 
-* Ruby version
+## Fichiers principaux
 
-* System dependencies
+```
+/app/controllers/weather_controller.rb
+```
 
-* Configuration
+et
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+/config/routes.rb
+```
